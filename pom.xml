@@ -70,16 +70,6 @@
 		</plugins>
 		
 	<plugin>
-   <groupId>org.codehaus.modello</groupId>
-   <artifactId>modello-maven-plugin</artifactId>
-   <version>1.8.1</version>
-   <executions>
-     <execution>
-       <configuration>
-         <models>
-           <model>src/main/mdo/maven.mdo</model>
-         </models>
-         <version>4.0.0</version>
        </configuration>
        <goals>
          <goal>java</goal>
